@@ -1,2 +1,13 @@
-# java-poo-fundamentals
-Java console project focused on object-oriented programming fundamentals (classes, encapsulation, constructors, and domain logic).
+# Java POO Fundamentals
+
+Console-based Java project designed to practice object-oriented programming concepts.
+
+## Topics Covered
+- Classes and objects
+- Encapsulation
+- Constructors
+- Domain methods
+- Basic business logic
+
+## Module
+Banking system simulation
