@@ -29,6 +29,8 @@ public class Main {
         
         System.out.println("Depositar 500: " + cuentaC.depositar(500));
         System.out.println("Saldo: " + cuentaC.getSaldo());
+        
+        cuentaC.imprimirHistorial();
     
     }
   
