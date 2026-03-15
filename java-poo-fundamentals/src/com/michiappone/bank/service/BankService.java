@@ -54,5 +54,22 @@ public class BankService{
         return cuenta.extraer(monto); 
     }
     
+    
+    public boolean transferir(String cbuOrigen,String cbuDestino, double monto){
+        CuentaBancaria origen = buscarCuenta(cbuOrigen);
+        CuentaBancaria destino = buscarCuenta(cbuDestino);
+        
+        if(origen == null || destino == null){
+            return false;
+        }
+        
+        if(!origen.extraer(monto)){
+            return false;
+        }
+        
+        destino.depositar(monto);
+        return true; 
+    }
+    
 }
 

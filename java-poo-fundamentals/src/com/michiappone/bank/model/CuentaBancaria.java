@@ -50,6 +50,12 @@ public class CuentaBancaria {
         return saldo;
     }
 
+    public String getCbu() {
+        return cbu;
+    }
+    
+    
+
     @Override
     public String toString() {
         return "Cuenta Bancaria:\n" +
